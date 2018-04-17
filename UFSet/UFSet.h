@@ -22,7 +22,7 @@ namespace Charles{
                     s[i] = d[i];
                 }
             }
-            ~UFSet(){delete s;delete parent;}
+            ~UFSet(){delete []s;delete []parent;}
             void Union(int x,int y){
                 parent[x] = y;
             }
