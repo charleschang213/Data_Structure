@@ -2,6 +2,7 @@
 #define LIST_H
 #include <iostream>
 #include "Linked_List/Linked_List.h"
+//Implementation of linked list
 
 namespace Charles{
     template<class T>

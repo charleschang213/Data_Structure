@@ -1,6 +1,7 @@
 #ifndef HEAP_H
 #define HEAP_H
 #include <iostream>
+// Implementation of heap
 
 namespace Charles{
     template<class T>
