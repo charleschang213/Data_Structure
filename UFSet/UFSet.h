@@ -1,6 +1,7 @@
 #ifndef UFSET_H
 #define UFSET_H
 #include <iostream>
+// Implementation of UF-set
 
 namespace Charles{
     template<class T>
